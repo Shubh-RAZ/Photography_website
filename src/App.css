@@ -1,0 +1,384 @@
+@import url(//db.onlinewebfonts.com/c/7e96eba370659b4e4563309dc4ebb33f?family=Samarkan);
+@font-face {font-family: "Samarkan"; src: url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.eot"); src: url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e96eba370659b4e4563309dc4ebb33f.svg#Samarkan") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+.App{
+  background-color: rgb(21,32,52);
+  height:230vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.navbar-parallax{
+  position: absolute;
+  top:0;
+  z-index: 1000;
+}
+
+.content-whole{
+  position: absolute;
+  top:0;
+  z-index: 10;
+}
+
+
+.background-img{
+  height:80vh;
+  z-index: 0;
+}
+
+.background-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.icon-box img{
+  width:60vh;
+  height: 60vh;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.icon-quote{
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box{
+height: 60vh;
+}
+
+.icon-box img{
+  width: 100%;
+  height: 100%;
+}
+
+.quote-box{
+  height: 60vh;
+
+  padding: 20px;
+}
+
+.quote-1{
+  width:80%;
+  margin: auto;
+  height: 40%;
+}
+
+.quote-1-heading{
+text-align: center;
+color: white;
+font-size: 25px;
+font-weight: 600;
+background: linear-gradient(45deg, #f3ec78, #af4261);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+text-transform: uppercase;
+}
+.quote-2-heading{
+text-align: center;
+color: white;
+font-size: 25px;
+font-weight: 600;
+background: linear-gradient(45deg, #f3ec78, #af4261);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+text-transform: uppercase;
+}
+
+.quote-1-content{
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  position: relative;
+  top:10px;
+}
+
+.quote-2-content{
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  position: relative;
+  top:10px;
+}
+
+.quote-2{
+  width:80%;
+  margin: auto;
+  height: 40%;
+}
+
+.qt-mg{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+background-color: rgb(178,34,34);
+}
+
+.service{
+  width:80%;
+  margin: auto;
+  height: 60vh;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.service img{
+  width:100%;
+  height: 100%;
+  transition: all .5s;
+}
+
+.box_1{
+  width:20px;
+  height: 20px;
+  border-top:2px solid white;
+  border-left: 2px solid white;
+  z-index: 1000;
+  position: absolute;
+  top:10px;
+  left:10px;
+  opacity: 0;
+  transition: all .5s;
+}
+
+.box_4{
+  width:20px;
+  height: 20px;
+  border-bottom:2px solid white;
+  border-right: 2px solid white;
+  z-index: 1000;
+  position: absolute;
+  bottom:50px;
+  right:10px;
+  opacity: 0;
+  transition: all .5s;
+}
+
+.service:hover .box_1{
+  width: 120px;
+  height: 120px;
+  opacity: 1;
+  transition: all .5s;
+}
+.service:hover{
+  cursor: pointer;
+}
+.service:hover .box_4{
+  width: 120px;
+  height: 120px;
+  opacity: 1;
+  transition: all .5s;
+}
+
+.service:hover img {
+  transform: scale(1.2);
+  transform: translate3d(0,-40px,0);
+  opacity: 0.5;
+  transition: all .5s;
+}
+
+.fa-briefcase{
+  color:yellow;
+  margin: auto;
+ 
+}
+
+.service-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-briefcase::before{
+  font-size: 40px;
+}
+
+.service-cont-box{
+  width:100%;
+  padding-top: 10px;
+  height: 40px;
+  position: absolute;
+  transform: translate3d(0,40px,0);
+  background-color: rgb(255,99,71);
+  transition: all .5s;
+}
+
+.service:hover .service-cont-box{
+  opacity: 1;
+  transition: all .5s;
+  transform: translate3d(0,-40px,0);
+}
+
+.service-cont{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  bottom:7px;
+  font-size: 20px;
+  color: white;
+}
+
+.footer-photo{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.foot-cont{
+  width: 100%;
+  background-color: rgb(178,34,34);
+ 
+}
+
+.follow-us{
+  display: flex;
+  justify-content: center;
+}
+
+.follow-heading{
+  width:14%;
+  font-size: 30px;
+  color:white;
+}
+
+.icons{
+  width:4%;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}
+
+.foot-tag{
+  font-size: 25px;
+  text-align: center;
+  font-family: "samarkan";
+  background: linear-gradient(45deg,white,white);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-class{
+  position: absolute;
+  top:0;
+  z-index: 10;
+}
+
+@media (max-width:992px){
+  .icon-box{
+    width: 60%;
+    margin: auto;
+  }
+
+  .App{
+    height: 430vh;
+  }
+
+  .service{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .icons{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}
+
+@media (max-width:625px){
+  .foot-tag{
+    font-size: 20px;
+  }
+
+  .quote-1{
+    height: 50%;
+    width: 100%;
+
+  }
+
+  .quote-2{
+    height: 50%;
+    width: 100%;
+  }
+
+  .quote-2-heading{
+    font-size: 23px;
+  }
+
+  .icon-box{
+    width: 90%;
+  }
+}
+
+
+@media (max-width:500px){
+  .foot-tag{
+    font-size: 17px;
+  }
+
+  .App{
+    height: 400vh;
+  }
+
+  .background-img{
+    height: 60vh;
+  }
+
+  .quote-2-heading{
+    font-size: 20px;
+  }
+
+  .quote-1{
+    width: 100%;
+  }
+  .quote-2{
+    width: 100%;
+  }
+
+  .quote-1-heading{
+    font-size: 20px;
+  }
+
+  .icon-box{
+    width: 90%;
+  }
+}
+
+@media (max-width:425px){
+  .foot-tag{
+    font-size: 16px;
+  }
+
+  .icon-box{
+    width: 100%;
+  }
+}
+
+@media (max-width:400px){
+  .foot-tag{
+    font-size: 15px;
+  }
+
+  .quote-1-content{
+    font-size: 14px;
+  }
+
+  .quote-2-heading{
+    font-size: 16px;
+  }
+
+  .quote-1-heading{
+    font-size: 16px;
+  }
+  .quote-2-content{
+    font-size: 14px;
+  }
+}
