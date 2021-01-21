@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Photography_website/static/css/main.ff26f98f.chunk.css",
+    "main.js": "/Photography_website/static/js/main.7c558a7a.chunk.js",
+    "main.js.map": "/Photography_website/static/js/main.7c558a7a.chunk.js.map",
+    "runtime-main.js": "/Photography_website/static/js/runtime-main.9642993a.js",
+    "runtime-main.js.map": "/Photography_website/static/js/runtime-main.9642993a.js.map",
+    "static/css/2.b390eadb.chunk.css": "/Photography_website/static/css/2.b390eadb.chunk.css",
+    "static/js/2.7b9b13b6.chunk.js": "/Photography_website/static/js/2.7b9b13b6.chunk.js",
+    "static/js/2.7b9b13b6.chunk.js.map": "/Photography_website/static/js/2.7b9b13b6.chunk.js.map",
+    "static/js/3.b4b1d447.chunk.js": "/Photography_website/static/js/3.b4b1d447.chunk.js",
+    "static/js/3.b4b1d447.chunk.js.map": "/Photography_website/static/js/3.b4b1d447.chunk.js.map",
+    "index.html": "/Photography_website/index.html",
+    "static/css/2.b390eadb.chunk.css.map": "/Photography_website/static/css/2.b390eadb.chunk.css.map",
+    "static/css/main.ff26f98f.chunk.css.map": "/Photography_website/static/css/main.ff26f98f.chunk.css.map",
+    "static/js/2.7b9b13b6.chunk.js.LICENSE.txt": "/Photography_website/static/js/2.7b9b13b6.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/Photography_website/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9642993a.js",
+    "static/css/2.b390eadb.chunk.css",
+    "static/js/2.7b9b13b6.chunk.js",
+    "static/css/main.ff26f98f.chunk.css",
+    "static/js/main.7c558a7a.chunk.js"
+  ]
+}
